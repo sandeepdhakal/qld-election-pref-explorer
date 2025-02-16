@@ -10,6 +10,8 @@ dependencies = [
     "matplotlib>=3.10.0",
     "pandas>=2.2.3",
     "panel>=1.6.1",
+    "pre-commit>=4.1.0",
     "pyarrow>=19.0.0",
     "pywaffle>=1.1.1",
+    "ruff>=0.9.6",
 ]
