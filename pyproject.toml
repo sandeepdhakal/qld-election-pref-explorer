@@ -1,0 +1,15 @@
+[project]
+name = "qld-election-pref-explorer"
+version = "0.1.0"
+description = "Dashbaord to explore preference flows during the 2024 QLD state election."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastparquet>=2024.11.0",
+    "holoviews>=1.20.0",
+    "matplotlib>=3.10.0",
+    "pandas>=2.2.3",
+    "panel>=1.6.1",
+    "pyarrow>=19.0.0",
+    "pywaffle>=1.1.1",
+]
